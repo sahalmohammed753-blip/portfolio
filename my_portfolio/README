@@ -1,0 +1,11 @@
+Project Overview
+This Modern Responsive Portfolio showcases the professional journey and technical expertise of Sahal, a 2nd-year BCA student specializing in Robotic Automation and Deep Learning at Srinivas University. Built with a focus on clean UI/UX and smooth performance, the website serves as a central hub for Sahal’s web development services, academic achievements, and personal projects. The site features a sleek "dark mode" aesthetic, interactive navigation with active-state tracking, and a fully fluid layout that adapts seamlessly from desktop monitors to mobile devices. By leveraging HTML5, CSS3 (including Flexbox and CSS Variables), and Vanilla JavaScript, this portfolio demonstrates a strong foundation in frontend development and a commitment to creating engaging, user-centric digital experiences.
+
+Key Features Highlighted:
+Dynamic UI: Includes a "typing text" effect and interactive social icons for a modern feel.
+
+Service-Oriented: Dedicated sections for responsive web development, landing pages, and portfolio creation.
+
+Mobile-First Design: Custom media queries ensure the site looks great on all screen sizes.
+
+Direct Engagement: Integrated contact features including mailto links and click-to-call functionality.
