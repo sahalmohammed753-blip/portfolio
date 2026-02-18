@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+    <style>
+  html { scroll-behavior: smooth; }
+  header { position: sticky; top: 0; z-index: 100; background: #433d3d; }
+  .section { min-height: 100vh; padding: 80px 20px; }
+</style>
+</head>
+<body>
+    <header>
+         <a href="#home" class="logo">Sahal</a>
+  <nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#services">Services</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Sahal portrait photo" loading="lazy">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Sahal</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>passionate web developer and a 2nd-year BCA student. I specialize in building user-friendly and responsive websites using HTML, CSS, and JavaScript, and I’m constantly exploring new technologies to improve my skills. I enjoy creating innovative and engaging web experiences and look forward to growing as a developer while working on exciting projects.</p>
+      <div class="social-icons">
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/sahalllyy" 
+     target="_blank" 
+     rel="noopener noreferrer">
+     <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/mohammed-sahal-948a3727b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+     target="_blank" 
+     rel="noopener noreferrer">
+     <i class="fa-brands fa-linkedin"></i>
+  </a>
+
+  <!-- Gmail -->
+  <a href="mailto:sahalmohammed753@gmail.com">
+     <i class="fa-solid fa-envelope"></i>
+  </a>
+</div>
+            <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+    <section id="services"class="section">
+  <h2>Services</h2>
+  <p>I offer end-to-end web development solutions tailored to your needs. From designing and building responsive, user-friendly websites to creating modern UI/UX designs, I ensure your online presence stands out. I can develop personal portfolios, blogs, and e-commerce platforms with secure payment integration, and I also provide SEO optimization and website speed enhancements for better performance. Whether you need a brand-new website or want to revamp and maintain an existing one, I deliver creative and functional solutions that help your business grow.
+    some of my services are listed below:
+  </p>
+  <ul>
+    <li>Responsive Website Development</li>
+    <li>Landing Pages</li>
+    <li>Portfolio Sites</li>
+  </ul>
+</section>
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <p>I have a strong foundation in modern web technologies and design principles. My skills include creating responsive and visually appealing websites using HTML, CSS, and JavaScript, as well as building dynamic and functional projects with frameworks like React. I’m experienced in crafting user-friendly interfaces, integrating APIs, optimizing websites for performance, and ensuring cross-device compatibility. Along with design and development, I have knowledge of SEO practices, version control (Git/GitHub), and basic backend handling, which helps me deliver complete and professional solutions for clients.</p>
+  <ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Responsive Design</li>
+    <li>Git & GitHub</li>
+  </ul>
+</section>
+<section id="education" class="section">
+  <h2>Education</h2>
+  <p>I am currently pursuing a Bachelor’s degree in Computer Applications (BCA) with a specialization in Robotic Automation and Deep Learning at Srinivas University, Mangalore. Through my coursework, I’ve gained knowledge in programming, web development, automation tools, and the basics of AI and deep learning. I enjoy applying my learning to real-world scenarios and continuously explore emerging technologies in robotics and AI. I’m eager to collaborate on projects that challenge me to grow, contribute to innovative solutions, and build hands-on experience working with teams and clients.</p>
+</section>
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <p>I am a fresher also iam working on projects like Academic and personal projects in web development.</p>
+</section>
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:sahalmohammed753@gmail.com">sahalmohammed753@gmail.com</a><br>
+    contact no: <a href="tel:+919745568705">+91 9745568705</a><br>
+    Mangalore, karnataka ,India<br>
+    ..........      student at Srinivas university      ..........</p>
+</section>
+<script>
+  // Select all nav links
+  const navLinks = document.querySelectorAll('header nav a');
+  // Loop through each link
+  navLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      // Remove active class from all links
+      navLinks.forEach(nav => nav.classList.remove('active'));
+      // Add active class to the clicked one
+      this.classList.add('active');
+    });
+  });
+</script>
+<footer>
+        <p align="center">&copy; 2025 Sahal. All rights reserved.</p>
+</footer>
+</body>
+</html>
